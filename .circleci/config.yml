@@ -13,7 +13,6 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - node/install
-      - python/install
       # checkout đẻ fetch code mới nhất từ git repo
       - checkout
       # install dependencies in both apps
