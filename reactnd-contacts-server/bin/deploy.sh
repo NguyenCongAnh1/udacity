@@ -1,0 +1,1 @@
+eb create --sample --single --instance-types t2.small
