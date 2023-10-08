@@ -14,6 +14,9 @@ jobs:
       - checkout
       # install dependencies in both apps
       - run:
+          name: Install yarn
+          command: npm install -g yarn
+      - run:
           name: Backend install
           # "command: |" cung cấp command line dưới dạng da dòng
           command: |
