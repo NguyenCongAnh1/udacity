@@ -6,4 +6,4 @@ sudo apt-get install python3 python3-pip
 python3 -m pip install virtualenv
 git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git
 python3 ./aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py
-echo 'export PATH="$HOME/.ebcli-virtual-env/executables:$PATH"' >> "$profile_file" && source "$profile_file"
+echo 'export PATH="/root/.ebcli-virtual-env/executables:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
