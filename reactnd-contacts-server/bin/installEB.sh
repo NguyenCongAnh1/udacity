@@ -1,6 +1,6 @@
 # Linux/MacOS
 cd
-sudo apt-get install python
+sudo apt-get install python python-pip
 python -m pip install virtualenv
 git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git
 python ./aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py
