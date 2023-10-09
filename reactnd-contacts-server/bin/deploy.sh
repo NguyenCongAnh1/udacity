@@ -1,3 +1,3 @@
-eb create --cfg demo-env
-# Verify the Node.js version and region in .elasticbeanstalk/config.yml file
-eb create --sample --single --instance-types t2.small
+eb init
+eb setenv AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE AWS_ACCESS_KEY=$AWS_ACCESS_KEY
+eb deploy
