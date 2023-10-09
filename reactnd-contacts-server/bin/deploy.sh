@@ -1,3 +1,4 @@
 
-eb setenv AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE AWS_ACCESS_KEY=$AWS_ACCESS_KEY
+eb setenv demo-env
+eb use demo-env
 
